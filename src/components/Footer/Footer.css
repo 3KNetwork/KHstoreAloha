@@ -1,0 +1,33 @@
+.footer-top {
+  display: flex;
+}
+#appLink li {
+  list-style-type: none;
+  display: inline;
+}
+
+.ftp {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -35%;
+}
+
+#appLink a img {
+  display: flex;
+  justify-content: flex-start;
+  width: 5% !important;
+}
+.solution-center {
+  align-items: flex-end;
+  display: inline;
+  margin-left: 40%;
+}
+
+#qr {
+  width: 10% !important;
+}
+
+.appLink {
+  margin-left: 10%;
+  margin-top: 1.5%;
+}

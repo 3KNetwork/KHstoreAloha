@@ -1,0 +1,65 @@
+.admincaps {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.butonlar {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  align-items: center;
+}
+
+#success2 {
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+}
+
+#error2 {
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #f44336;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+  width: 250px;
+  background-color: #ccc;
+  opacity: 0.9;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.sabit-form {
+  position: fixed;
+  height: 150px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

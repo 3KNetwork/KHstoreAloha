@@ -1,0 +1,36 @@
+.circlewrap {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  width: 80%;
+  background-color: transparent;
+  margin-left: 260px;
+}
+
+.circles {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1px solid black;
+  margin: 26px;
+}
+
+.circles img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#cembers {
+  display: flex;
+  justify-content: center;
+}
+
+.circlewrap h6 {
+  margin-top: 10px;
+}
+.circles img {
+  width: 100%;
+  border-radius: 50%;
+}

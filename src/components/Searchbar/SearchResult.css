@@ -1,0 +1,11 @@
+.search-result {
+  padding: 4px 2px;
+}
+
+.search-result:hover {
+  background-color: #ef3333;
+}
+.search-results {
+  max-height: 50px;
+  overflow-y: auto;
+}
